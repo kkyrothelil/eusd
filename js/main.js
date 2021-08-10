@@ -1,0 +1,1 @@
+particlesJS(),$("a[href^='index.html#']").click((function(){var e=$(this).attr("href").replace("index.html","");return $("html, body").animate({scrollTop:$(e).offset().top},400),!1})),$(document).ready((function(){$(".icon-menu").click((function(e){$(".icon-menu").toggleClass("_active"),$(".menu__body").slideToggle(300),$("body").toggleClass("_lock")}))}));
